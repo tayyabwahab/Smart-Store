@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pturq"
+    tools:context=".ConfirmOrder"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_weight="0.47"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/proimg"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.53"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameprice"
+        android:layout_below="@+id/proimg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <TextView
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/txtclr"
+            android:text="@string/proname"
+            android:id="@+id/productname"
+            android:layout_weight="0.5"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:textColor="@color/txtclr"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:text="120 PKR"
+            android:textAlignment="textEnd"
+            android:textSize="19sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/nameprice"
+        android:id="@+id/quantitybtn">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/decrement"
+            android:text="@string/minus"
+            android:onClick="decrement"
+            android:layout_weight="0.2"
+            android:textSize="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:id="@+id/quan"
+            android:text="@string/one"
+            android:layout_weight="0.60"
+            android:textSize="20sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/increment"
+            android:text="@string/plus"
+            android:onClick="increment"
+            android:layout_weight="0.2"
+            android:textSize="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:layout_below="@+id/quantitybtn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp">
+
+        <TextView
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/txtclr"
+            android:text="@string/totalp"
+            android:id="@+id/totaltxt"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tprice"
+            android:textColor="@color/txtclr"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:text="120 PKR"
+            android:textAlignment="textEnd"
+            android:textSize="19sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:text="@string/confirm"
+        android:textSize="18sp"
+        android:id="@+id/conf"
+        android:onClick="confirm"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conf"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:text="@string/cancel"
+        android:textSize="18sp"
+        android:onClick="cancel"
+        android:layout_marginTop="40dp"
+        />
+    </LinearLayout>
+
+</LinearLayout>
