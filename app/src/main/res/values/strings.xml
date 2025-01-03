@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Fyp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="regbtn">Register</string>
+    <string name="registeroptmsg">Dont have an account? </string>
+    <string name="registeredoptmsg">Already have an account? </string>
+    <string name="registeropt">Register here</string>
+    <string name="registeredopt">Login here</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="scanthiscode">Scan this QR Code to enter the store</string>
+    <string name="save">Save</string>
+    <string name="enterstore">Enter Store</string>
+    <string name="scanpro">Scan Product</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="name">Full Name</string>
+    <string name="proname">Product Name</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="one">1</string>
+    <string name="totalp">Total Price</string>
+    <string name="confirm">Confirm Order</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back to Menu</string>
+</resources>

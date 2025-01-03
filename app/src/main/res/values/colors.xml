@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCFCFC</color>
+    <color name="colorPrimaryDark">#262B2F</color>
+    <color name="colorAccent">#65655E</color>
+    <color name="pgrey">#5D737E</color>
+    <color name="pturq">#BCF8EC</color>
+    <color name="txtclr">#15181A</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="linkclr">#0068F8</color>
+    <color name="dfltbtn">#D6D8D7</color>
+</resources>
